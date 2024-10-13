@@ -4,7 +4,7 @@
 
     The goal of this challenge is to develop a memory game. The game consists of a grid of cards. Each card has a symbol on one side. The cards are arranged randomly on the grid with the symbol face down. The player flips two cards over each turn. If the two cards have the same symbol, they remain face up. Otherwise, the cards flip back over after a short period of time. The goal of the game is to match all pairs of cards.
 
-## INSTRUCTIONS
+## INSTRUCTIONS (BASE CHALLENGE)
 
 ### 1. Choose a programming language of your choice.
 ### 2. Choose a topic for your cards. Some examples are:
@@ -26,6 +26,15 @@
 Use Copilot chat to support your learning and development.
 Use Copilot to speed up your development.
 
+## ADDITIONAL CHALLENGES 
+
+Pick one or more of the following challenges to add to your game:
+
+1. Add a timer to the game. The player has a limited amount of time to match all pairs of cards.
+1. Include the ability to select the topic of the cards by using the available APIs.
+   - Add a color theme based on the selected topic. (e.g., if the topic is Star Wars characters, the color theme could be black and yellow). 
+1. Improve the game design. Add animations, sounds, and other visual effects to make the game more engaging.
+1. Allow Players to input their names and keep track of their scores. This should both work for single and double player games.
 
 
        
