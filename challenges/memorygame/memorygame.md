@@ -33,9 +33,10 @@ Pick one or more of the following challenges to add to your game:
 1. Add a timer to the game. The player has a limited amount of time to match all pairs of cards.
 1. Include the ability to select the topic of the cards by using the available APIs.
    - Add a color theme based on the selected topic. (e.g., if the topic is Star Wars characters, the color theme could be black and yellow). 
+   - Add a dynamic background that changes based on the selected Character group.
 1. Improve the game design. Add animations, sounds, and other visual effects to make the game more engaging.
 1. Allow Players to input their names and keep track of their scores. This should both work for single and double player games.
-
+1. Surprise us!
 
        
 
