@@ -12,7 +12,7 @@ The event runs from 9:30 AM to 4 PM, and includes:
 - Hands-on labs
 
 ## Setup
-Participants need to set up their lab environment using GitHub Codespaces or their preferred local tools. Ensure you have an IDE compatible with GitHub Copilot.
+Participants need to set up their lab environment using their temproary GitHub account received when they registered for the event. We will be using GitHub Codespaces as the primary development environment.
 
 ## Copilot Features
 GitHub Copilot integrates seamlessly with popular IDEs to enhance both coding productivity and code quality.
@@ -22,6 +22,4 @@ Adopting GitHub Copilot can lead to substantial productivity gains and significa
 
 ---
 
-For further assistance or more ideas, feel free to reach out, or refer to the prompt guide below.
-
-Happy coding!
+## Code Smarter, Not Harder! 🚀
