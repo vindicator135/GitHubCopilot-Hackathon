@@ -1,16 +1,5 @@
-```mermaid
-graph TD
-    A[Provider: azurerm]
-    B[Resource: azurerm_resource_group.aks]
-    C[Resource: azurerm_kubernetes_cluster.aks]
-    D[Resource: kubernetes_service.example]
-    E[Output: client_certificate]
-    F[Output: kube_config]
-    G[Output: load_balancer_ip]
-    A --> B
-    B --> C
-    C --> D
-    C --> E
-    C --> F
-    D --> G
-```
+<!-- Create a Mermaid sequence diagram for a credit card application process. Include the following participants: Applicant, Credit Check Service, Bank, and Notification Service. The sequence should include these steps:
+1. Applicant submits the application.
+2. Credit Check Service evaluates the credit score.
+3. Bank processes the application.
+4. Notification Service sends a confirmation to the applicant. -->
