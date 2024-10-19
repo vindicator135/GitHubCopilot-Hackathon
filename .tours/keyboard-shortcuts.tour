@@ -4,7 +4,7 @@
   "steps": [
     {
       "title": "Keyboard Shortcuts",
-      "description": "# GitHub Copilot Shortcuts\r\n\r\n### `Ctrl + i` - Launch Inline Chat\r\n### `Ctrl + Enter` - Launch Additional Suggestions Pane (when available)\r\n### `Alt + [` - Move to the next suggested word\r\n### `Alt + ]`  - Move back\r\n\r\n# VS Code Shortcuts\r\n\r\n### `Alt + Z` - Wrap lines\r\n### `Ctrl + B` - Hide VS Code panel\r\n### Ctrl + ` - Show/Hide Terminal"
+      "description": "# GitHub Copilot Shortcuts\r\n\r\n### `Ctrl + i` - Launch Inline Chat\r\n### `Ctrl + Enter` - Launch Additional Suggestions Pane (when available)\r\n### `Alt + [` - Move to the Next Code Suggestion\r\n### `Alt + ]`  - Previous Code Suggestion\r\n### `Ctrl + right arrow` - Move to next suggested word\r\n### `Ctrl + left arrow` - Previous word\r\n\r\n# VS Code Shortcuts\r\n\r\n### `Alt + Z` - Wrap lines\r\n### `Ctrl + B` - Hide VS Code panel\r\n### Ctrl + ` - Show/Hide Terminal"
     }
   ],
   "ref": "main"
