@@ -1,0 +1,84 @@
+{
+  "$schema": "https://aka.ms/codetour-schema",
+  "title": "03-Copilot-Chat",
+  "steps": [
+    {
+      "title": "Introduction",
+      "description": "# GitHub Copilot Chat\r\n\r\n>> 1min\r\n\r\nLet's now explore the benefits of GitHub Copilot Chat, a conversational interface that allows developers to interact with GitHub Copilot in natural language and get instant feedback and suggestions for your code challenges or needs. \r\n\r\n\r\n## New Session in Chat\r\n\r\nCopilot chat supports multiple sessions. Click the + symbol at the top of CHAT to create a new session.\r\n\r\n[+ New Session](./images/Copilot-Chat-New-Session.png)\r\n\r\n\r\nPress `Next` to continue"
+    },
+    {
+      "title": "Prompt crafting Principles",
+      "description": "## Understanding Prompt Crafting\r\n\r\n>> 3mins \r\n\r\nPrompt crafting is the art of writing concise requests to obtain accurate and effective responses from GitHub Copilot chat. Mastering it ensures more efficient and precise AI-assisted coding.\r\n\r\n### Prompt Crafting vs. Prompt Engineering\r\n\r\nPrompt Engineering involves deliberate strategies to refine interactions with AI models, especially when crafting language model prompts for user interaction. Unlike Prompt Engineering, GitHub Copilot is fine-tuned for coding contexts, requiring developers to interact with it as they would with a fellow coder, albeit an AI one.\r\n\r\n### Ask a non-coding question\r\nLet's see how Chat will respond to a non-coding related question.\r\n\r\n> `Provide me the recipe for a chicken casserole`\r\n\r\nAs anticipated, Copilot focuses on programming support and will not provide a recipe. GitHub's AI training ensures it prioritizes coding assistance.",
+      "selection": {
+        "start": {
+          "line": 1,
+          "character": 1
+        },
+        "end": {
+          "line": 3,
+          "character": 287
+        }
+      }
+    },
+    {
+      "title": "The 3 S's of GitHub Copilot Chat",
+      "description": "## The three S's of Prompt Crafting\r\n\r\n>> 5mins\r\n\r\nWhen using GitHub Copilot Chat, craft **`simple, specific, and short`** prompts to maximize the effectiveness of GitHub Copilot.\r\n\r\n> Note: In Microsoft Learn, they also mentioned \"Surround\", utilising descriptive filenames and keep related files open. This is the same as what we've covered on our \"Context as File\" or \"Neighboring tab\" topic.\r\n\r\nBelow are some examples of prompts that are simple, specific, and short:\r\n\r\n### **Create a Function:**\r\n>> \"Define a Python function that calculates the factorial of a number.\"\r\n\r\nSimple: The prompt targets a single, clear ask—defining a function.\r\n\r\nSpecific: It clearly states the function’s purpose is to calculate a factorial.\r\n\r\nShort: The instruction is direct and to the point, avoiding excess detail.\r\n\r\n\r\n### **Write a Test:**\r\n>> \"Generate a Jest test for a React button click event.\"\r\n\r\nSimple: The task is focused solely on test generation.\r\n\r\nSpecific: It specifies the test framework (Jest), the application type (React), and the event to test (button click).\r\n\r\nShort: The prompt is succinct and contains no unnecessary verbiage.\r\n\r\n\r\n### **Handle an Exception:**\r\n>> \"Add error handling for a file-not-found exception in this JavaScript code.\"\r\n\r\nSimple: The prompt requests addition of a single exception handling case.\r\n\r\nSpecific: It details the exception type \"file-not-found\" and the code context (JavaScript).\r\n\r\nShort: The phrasing is compact, easily directing Copilot’s action.\r\n\r\n"
+    },
+    {
+      "title": "Supported Languages",
+      "description": "## Support for multiple popular development languages\r\n\r\n>> 3mins (Demo)\r\n\r\nGitHub Copilot, powered by OpenAI's GPT model, is works really well in numerous programming languages, thanks to its training on a multitude of public repositories.\r\n\r\n\r\n## Try it out\r\n\r\nLet's now put Chat into the test if we ask it to produce suggestions for Java, Kotlin and Swift\r\n\r\n>> Launch GitHub Copilot Chat\r\n\r\nJava:\r\n\r\n> `Write a Java method called convertCelsiusToFahrenheit that takes a double parameter representing a temperature in Celsius and returns the temperature converted to Fahrenheit.`\r\n\r\nKotlin:\r\n\r\n> `Create a Kotlin function named 'isPalindrome' that takes a String parameter and returns a Boolean indicating whether the input string is a palindrome or not. Include comments explaining the function logic.`\r\n\r\nSwift:\r\n\r\n> `Write a Swift function called 'fetchWeatherData' which takes a 'String' parameter representing a city name and uses an 'URLSession' task to request weather data from an API. The function should return the data asynchronously using a completion handler with a custom 'WeatherData' struct.`\r\n\r\n\r\n",
+      "selection": {
+        "start": {
+          "line": 1,
+          "character": 1
+        },
+        "end": {
+          "line": 9,
+          "character": 27
+        }
+      }
+    },
+    {
+      "title": "Chat as Learning tool",
+      "description": "# A Learning Tool Beyond Code\r\n\r\n>> 3mins (Demo)\r\n\r\nGitHub Copilot Chat goes beyond coding assistance. Like ChatGPT, it serves as a learning platform within the realm of software development, offering insights on programming concepts, development practices, and industry knowledge.\r\n\r\n## Extend Your Knowledge with Copilot Chat\r\n\r\nFor queries on software methodologies, operational practices, or tech trends, consult Copilot Chat. Here are some non-code queries to explore:\r\n\r\n### Launch Chat in Editor mode for a better real-estate view. Paste the questions below and show the responses.\r\n\r\n>> \"What is DevOps and how can it make me more productive as a Developer?\"\r\n\r\nCopilot Chat can explain what DevOps is, detailing how CI/CD pipelines enhance workflow efficiency, automation speeds up development, and the collaboration it fosters.\r\n\r\n>> \"What are the leading practices for an efficient Pull Request process?\"\r\n\r\nLearn the intricacies of quality pull requests with Copilot's advice on crafting focused changes, descriptive summaries, and the art of code reviews.\r\n\r\n## Learning and Professional Development\r\n\r\nLook to GitHub Copilot Chat as an informative aid for understanding new concepts, refining skills, or tackling career queries. It's an AI resource that aids your development journey.\r\n\r\nPress `Next` to continue",
+      "selection": {
+        "start": {
+          "line": 1,
+          "character": 1
+        },
+        "end": {
+          "line": 34,
+          "character": 1
+        }
+      }
+    },
+    {
+      "file": "exercise/markdown/demo.md",
+      "description": "# Tips and Tricks\r\n\r\n## Formatting assistance\r\n\r\nUpdate markdown contents.\r\n\r\nYou can ask Copilot to help you format your markdown documentations.\r\n\r\n## Try it out\r\n\r\n1. Copy the contents below inside demo.md\r\n\r\n\r\nCrafting engaging documentation is integral to the success of any project. Here's how to make yours stand out:\r\n\r\nIdentify Your Audience: Tailor your documentation to the knowledge level and needs of your readers, whether they're beginners or experts.\r\nUse Clear Structure: Organize with headers, lists, and a table of contents. Consistency helps readers follow along and find information quickly.\r\nBe Concise but Comprehensive: Provide complete information in a direct manner. Avoid fluff, but do explain jargon and complex concepts.\r\nIncorporate Examples: Reinforce instructions and explanations with practical examples. Code snippets and case studies can clarify abstract points.\r\nReview and Update: Ensure accuracy with regular reviews. Updating docs to reflect changes in the project keeps your audience well-informed.\r\n\r\n\r\n2. Highlight the all the text, press Ctrl + i, then type `Format the first line as markdown title and the rest as markdown numbered list.`\r\n\r\n## Generate user stories\r\n\r\nCopilot can also help BAs and POs not just developers. It can also help you by generating user stories.\r\n\r\n## Try it out\r\n\r\nAsk Copilot Chat to Generate a user story for a retail shop manager managing in-store stocks.\r\n\r\n## Generate Pseudocode\r\n\r\nCopilot can also help you in generating pseudocode. This is very helpful for solution architects.\r\n\r\n## Try it out\r\n\r\nGenerate a psuedocode for this user story for a retail application: \r\nAs a retail shop manager, I want to have a system that allows me to manage in-store stocks, So that I can keep track of inventory, ensure products are always available for customers, and make informed decisions about reordering and discontinuing products.\r\n\r\nAcceptance Criteria:\r\n\r\nI can view a list of all products in the store along with their current stock levels.\r\nI can update the stock level of a product when new stock arrives or when stock is sold.\r\nThe system alerts me when a product's stock level falls below a certain threshold.\r\nI can view a report of products that are frequently out of stock.\r\nI can view a report of products that have not been sold for a certain period of time.\r\n",
+      "selection": {
+        "start": {
+          "line": 1,
+          "character": 1
+        },
+        "end": {
+          "line": 26,
+          "character": 1
+        }
+      },
+      "line": 2
+    },
+    {
+      "file": "exercise/python/requirements.txt",
+      "description": "## Sorting\r\n\r\nYou can also ask simple sorting assistance by highlight the text you want to sort, hitting Ctrl + i and typing \r\n\r\n## Try it out\r\n\r\n1. In this file, select all the dependencies (excluding the comment)\r\n1. Press Ctrl + i, then in type \"Sort this list alphabetically\"\r\n\r\n\r\n```\r\nFlask==1.1.2\r\ngunicorn==20.0.4\r\nnumpy==1.18.5\r\npandas==1.0.5\r\nmatplotlib==3.2.2\r\nscikit-learn==0.23.1\r\nrequests==2.24.0\r\nbeautifulsoup4==4.9.1\r\nlxml==4.5.1\r\npytest==5.4.3\r\n```\r\n",
+      "title": "Sorting and Others"
+    },
+    {
+      "title": "Code conversion",
+      "description": "## Convert code from one language to another\r\n\r\nCopilot can also help you in converting code from one language to another.\r\n\r\n### Reminder: Although Copilot is capable of converting code, you should always review it's suggestions and make sure that the converted code's functionality is unchanged.\r\n\r\n\r\n## Try it out:\r\n\r\nConvert this query to PostgreSQL\r\n\r\n```text\r\nSELECT a.column1,\r\n       b.column2,\r\n       c.column3,\r\n       SUM(d.column4) AS total_column4,\r\n       e.column5,\r\n       f.column6,\r\n       (SELECT MAX(x.column7) FROM table_x x WHERE x.column8 = b.column2) AS max_column7\r\nFROM table_a a\r\nJOIN table_b b ON a.id = b.a_id\r\nLEFT JOIN table_c c ON b.id = c.b_id\r\nJOIN table_d d ON c.id = d.c_id\r\nLEFT JOIN table_e e ON d.id = e.d_id\r\nLEFT JOIN (\r\n    SELECT t1.column6, t2.f_id\r\n    FROM table_t1 t1\r\n    INNER JOIN table_t2 t2 ON t1.id = t2.t1_id\r\n    WHERE t1.column9 = 'SomeValue'\r\n) f ON e.id = f.f_id\r\nWHERE a.column10 <= (SELECT AVG(column10) FROM table_a)\r\nAND b.column11 IN (SELECT column11 FROM table_b GROUP BY column11 HAVING COUNT(*) > 1)\r\nGROUP BY a.column1, b.column2, c.column3, e.column5, f.column6\r\nHAVING SUM(d.column4) > 1000\r\nCONNECT BY PRIOR a.id = b.a_id\r\nORDER BY a.column1 DESC, b.column2, total_column4\r\nFETCH FIRST 50 ROWS ONLY;\r\n```\r\n\r\n\r\n"
+    },
+    {
+      "title": "Chat Questions",
+      "description": "# GitHub Copilot Chat Q&A\r\n\r\n>> 5 mins Q&A\r\n\r\n## Check time/Break"
+    }
+  ]
+}

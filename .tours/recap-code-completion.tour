@@ -1,0 +1,19 @@
+{
+  "$schema": "https://aka.ms/codetour-schema",
+  "title": "01-Recap Code Completion",
+  "steps": [
+    {
+      "title": "Probabilistic",
+      "description": "# Probabilistic, not deterministic\r\n\r\n### GitHub Copilot is fundamentally a predictive tool that leverages a Large Language Model to suggest **probable code** snippets, **not guaranteed solutions**, based on the context and patterns in your coding.\r\n\r\n## Trust, but verify"
+    },
+    {
+      "title": "Clear Comments",
+      "description": "# Clear Comments\r\n\r\n### Providing clear context to GitHub Copilot significantly improves your chances of receiving the most relevant and optimal code suggestions. Context is Key and Precision matters."
+    },
+    {
+      "title": "Additional Suggestions",
+      "description": "# Additional suggestions (when available)\r\n\r\n### Always check if there are additional suggestions available. Copilot may provide multiple solutions to a problem, and you can choose the one that best fits your needs.\r\n\r\n### You can open the Additional Suggestions pane by pressing `Ctrl + Enter`"
+    }
+  ],
+  "ref": "main"
+}

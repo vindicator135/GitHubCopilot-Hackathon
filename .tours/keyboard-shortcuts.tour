@@ -1,0 +1,19 @@
+{
+  "$schema": "https://aka.ms/codetour-schema",
+  "title": "99-Keyboard Shortcuts",
+  "steps": [
+    {
+      "title": "Probabilistic",
+      "description": "# Keyboard Shortcuts\r\n\r\n## `Ctrl + i` - Launch Inline Chat\r\n## `Ctrl + Enter` - Launch Additional Suggestions Pane (when available)\r\n## `Alt + [` - Move to the next suggested word\r\n## `Alt + ]`  - Move back"
+    },
+    {
+      "title": "Clear Comments",
+      "description": "# Clear Comments\r\n\r\n### Providing clear context to GitHub Copilot significantly improves your chances of receiving the most relevant and optimal code suggestions. Context is Key and Precision matters."
+    },
+    {
+      "title": "Additional Suggestions",
+      "description": "# Additional suggestions (when available)\r\n\r\n### Always check if there are additional suggestions available. Copilot may provide multiple solutions to a problem, and you can choose the one that best fits your needs.\r\n\r\n### You can open the Additional Suggestions pane by pressing `Ctrl + Enter`"
+    }
+  ],
+  "ref": "main"
+}
