@@ -19,7 +19,7 @@ Participants need to set up their lab environment using their temproary GitHub a
 
 **Here's a step-by-step guide to get you up and running:**
 
-1. **Connect to Wi-Fi:** Make sure you’re connected to the free Wi-Fi or use your mobile data if you prefer. 📶
+1. **Connect to Wi-Fi:** Make sure you’re connected to the Accenture Wi-Fi or use your mobile data if you prefer.
 1. Launch Chrome or Edge browser. Open two tabs.
 1. In the first tab, navigate to Outlook.com. Login with your temporary GitHub account. This is where you will receive the Device Code.
 1. In the second tab, navigate to GitHub.com and login using your temporary GitHub account. When asked for a Device Code, enter the code you received in your email (Outlook tab).
