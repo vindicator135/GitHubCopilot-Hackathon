@@ -1,0 +1,78 @@
+{
+  "$schema": "https://aka.ms/codetour-schema",
+  "title": "02-Copilot-Chat",
+  "steps": [
+    {
+      "title": "Introduction",
+      "description": "# GitHub Copilot Chat\r\n\r\n\r\nLet's now explore the benefits of GitHub Copilot Chat, a conversational interface that allows developers to interact with GitHub Copilot in natural language and get instant feedback and suggestions for your code challenges or needs. \r\n\r\n- GitHub Copilot Chat's most useful feature (for me personally) is providing code suggestions in natural language.\r\n- It acts like having ChatGPT integrated into your editor, specifically for software development.\r\n- Users often rely on this feature for instant feedback and code suggestions.\r\n- The feature significantly helped me learn Python quickly.\r\n- Why Python? Due to its prevalence in open-source Generative AI applications.\r\n\r\nPress `Next` to continue"
+    },
+    {
+      "title": "Prompt crafting Principles",
+      "description": "## Understanding Prompt Crafting\r\n\r\nPrompt crafting is the art of writing concise requests to obtain accurate and effective responses from GitHub Copilot chat. Mastering it ensures more efficient and precise AI-assisted coding.\r\n\r\n### Prompt Crafting vs. Prompt Engineering\r\n\r\nPrompt Engineering involves deliberate strategies to refine interactions with AI models, especially when crafting language model prompts for user interaction. Unlike Prompt Engineering, GitHub Copilot is fine-tuned for coding contexts, requiring developers to interact with it as they would with a fellow coder, albeit an AI one.\r\n\r\n### Ask a non-coding question\r\nLet's see how Chat will respond to a non-coding related question.\r\n\r\n> `Provide me the recipe for a chicken casserole`\r\n\r\nAs anticipated, Copilot focuses on programming support and will not provide a recipe. GitHub's AI training ensures it prioritizes coding assistance.",
+      "selection": {
+        "start": {
+          "line": 1,
+          "character": 1
+        },
+        "end": {
+          "line": 3,
+          "character": 287
+        }
+      }
+    },
+    {
+      "title": "The 3 S's of GitHub Copilot Chat",
+      "description": "## The three S's of Prompt Crafting\r\n\r\nWhen using GitHub Copilot Chat, craft **`simple, specific, and short`** prompts to maximize the effectiveness of GitHub Copilot.\r\n\r\n> Note: In Microsoft Learn, they also mentioned \"Surround\", utilising descriptive filenames and keep related files open. This is the same as what we've covered on our \"Context as File\" or \"Neighboring tab\" topic.\r\n\r\nBelow are some examples of prompts that are simple, specific, and short:\r\n\r\n### **Create a Function:**\r\n>> \"Define a JavaScript function that calculates the factorial of a number.\"\r\n\r\nSimple: The prompt targets a single, clear ask—defining a function.\r\n\r\nSpecific: It clearly states the function’s purpose is to calculate a factorial.\r\n\r\nShort: The instruction is direct and to the point, avoiding excess detail.\r\n\r\n\r\n### **Write a Test:**\r\n>> \"A step by step guide on how I can start with the JEST testing famework.\"\r\n\r\nSimple: The task is focused solely generating a step by step guide.\r\n\r\nSpecific: It specifies the test framework (Jest).\r\n\r\nShort: The prompt is concise and contains no unnecessary verbiage.\r\n\r\n\r\n### **Handle an Exception:**\r\n>> \"Add error handling for a file-not-found exception in this JavaScript code.\"\r\n\r\nSimple: The prompt requests addition of a single exception handling case.\r\n\r\nSpecific: It details the exception type \"file-not-found\" and the code context (JavaScript).\r\n\r\nShort: The phrasing is compact, easily directing Copilot’s action.\r\n\r\n"
+    },
+    {
+      "title": "Chat Participants",
+      "description": "# Chat Participants \r\n\r\nChat participants are like experts who have a specialty that they can help you with, and you can talk to them in the chat by mentioning them with the @ symbol. Currently, these are the following built-in chat participants:\r\n\r\n- **@workspace** has context about the code in your workspace and can help you navigate it, finding relevant files or classes.\r\n- **@vscode** knows about commands and features in the VS Code editor itself, and can help you use them.\r\n- **@terminal** has context about the integrated terminal shell and its contents.\r\n- **@github** has knowledge about your GitHub repositories, issues, pull requests, and topics, and can also perform web searches using the Bing API.\r\n\r\n@workspace:\r\n`@workspace, which file contains the requirements for building the memory game?`\r\n\r\n@vscode:\r\n`@vscode, how do I open the terminal in VS Code?`\r\n\r\n@terminal:\r\n`@terminal, how do I check the status of my git repository?`"
+    },
+    {
+      "title": "Chat in Action",
+      "description": "## Let's now See GitHub Copilot Chat in Action",
+      "selection": {
+        "start": {
+          "line": 1,
+          "character": 1
+        },
+        "end": {
+          "line": 9,
+          "character": 27
+        }
+      }
+    },
+    {
+      "title": "Optimizing Chat with Context",
+      "description": "# Chat Context\r\n\r\n- GitHub Copilot performs better with more context.\r\n- Providing examples, documentation, API definitions, Swagger files, or database schemas improves accuracy.\r\n- Only provide enough information for Copilot to understand your goal.\r\n- Avoid providing too much information to prevent \"Hallucination\" (confusing Copilot).\r\n\r\n# Save your Chat history\r\n\r\n- Select a chat session from history\r\n- Press Ctrl Shift P, then type `Chat: Export Chat`\r\n- Exports in JSON format"
+    },
+    {
+      "title": "Chat as Learning tool",
+      "description": "# A Learning Tool Beyond Code\r\n\r\n>> 3mins (Demo)\r\n\r\nGitHub Copilot Chat goes beyond coding assistance. Like ChatGPT, it serves as a learning platform within the realm of software development, offering insights on programming concepts, development practices, and industry knowledge.\r\n\r\n## Extend Your Knowledge with Copilot Chat\r\n\r\nFor queries on software methodologies, operational practices, or tech trends, consult Copilot Chat. Here are some non-code queries to explore:\r\n\r\n### Launch Chat in Editor mode for a better real-estate view. Paste the questions below and show the responses.\r\n\r\n>> \"What is DevOps and how can it make me more productive as a Developer?\"\r\n\r\nCopilot Chat can explain what DevOps is, detailing how CI/CD pipelines enhance workflow efficiency, automation speeds up development, and the collaboration it fosters.\r\n\r\n>> \"What are the leading practices for an efficient Pull Request process?\"\r\n\r\nLearn the intricacies of quality pull requests with Copilot's advice on crafting focused changes, descriptive summaries, and the art of code reviews.\r\n\r\n## Learning and Professional Development\r\n\r\nLook to GitHub Copilot Chat as an informative aid for understanding new concepts, refining skills, or tackling career queries. It's an AI resource that aids your development journey.\r\n\r\nPress `Next` to continue",
+      "selection": {
+        "start": {
+          "line": 1,
+          "character": 1
+        },
+        "end": {
+          "line": 34,
+          "character": 1
+        }
+      }
+    },
+    {
+      "title": "Developer Productivity",
+      "description": "### Caturing Developer Productivity\r\n\r\nEmphasizing the importance of measuring adoption and productivity impact through various metrics and visualizations. It details data sources, workflow, key measurements, and dashboards to track and analyze the impact of GitHub Copilot on developer productivity.\r\n\r\n> Switch to PowerPoint",
+      "selection": {
+        "start": {
+          "line": 1,
+          "character": 1
+        },
+        "end": {
+          "line": 5,
+          "character": 23
+        }
+      }
+    }
+  ]
+}

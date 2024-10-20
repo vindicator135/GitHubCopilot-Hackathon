@@ -1,0 +1,11 @@
+{
+  "$schema": "https://aka.ms/codetour-schema",
+  "title": "04-Hackaton-Challenge",
+  "steps": [
+    {
+      "title": "Ready for the challenge",
+      "description": "# Ready for the challenge?\r\n\r\n### Hackathon Challenge\r\n\r\n- **Objective:** Develop a memory game using GitHub Copilot to assist in building the application.\r\n- **Timeframe:** 12:45 PM to 3:15 PM to complete the base challenge.\r\n- **Base Challenge:**\r\n  - Use your preferred development language or framework.\r\n  - Create a grid of cards (4x4, 6x6, or 8x8).\r\n  - Each card has a symbol on one side.\r\n  - Cards are arranged randomly with symbols face down.\r\n  - Players flip two cards per turn.\r\n  - If the cards match, they remain face up; otherwise, they flip back over.\r\n  - The goal is to match all pairs of cards.\r\n- **Additional Challenges:**\r\n  - Add a timer to limit the time for matching all pairs.\r\n  - Allow selection of card topics using APIs (e.g., Star Wars, Pokemon, Countries).\r\n  - Implement color themes and dynamic backgrounds based on selected topics.\r\n  - Enhance game design with animations, sounds, and visual effects.\r\n  - Enable player name input and score tracking for single and double player games.\r\n  - **\"Surprise us!\"**\r\n- **Guidelines:**\r\n  - Use GitHub Copilot features, tips, and tricks learned during the morning workshop.\r\n"
+    }
+  ],
+  "ref": "main"
+}

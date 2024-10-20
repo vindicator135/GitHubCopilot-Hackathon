@@ -1,0 +1,11 @@
+{
+  "$schema": "https://aka.ms/codetour-schema",
+  "title": "03-Developer-Productivity",
+  "steps": [
+    {
+      "title": "Capturing Productivity",
+      "description": "### Caturing Developer Productivity\r\n\r\nEmphasizing the importance of measuring adoption and productivity impact through various metrics and visualizations. It details data sources, workflow, key measurements, and dashboards to track and analyze the impact of GitHub Copilot on developer productivity.\r\n\r\n> Switch to PowerPoint"
+    }
+  ],
+  "ref": "main"
+}
