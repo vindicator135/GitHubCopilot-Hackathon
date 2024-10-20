@@ -7,9 +7,12 @@ The theme of this hackathon focuses on improving your coding efficiency and prod
 
 ## Agenda
 The event runs from 9:30 AM to 4 PM, and includes:
-- Workshops
-- Demos
-- Hands-on labs
+- Introduction
+- Dev Lab Onboarding
+- Workshops & Demos
+- Hackathon Time!
+- Presentation
+- Closing Remarks
 
 ## Setup
 Participants need to set up their lab environment using their temproary GitHub account received when they registered for the event. We will be using GitHub Codespaces as the primary development environment.
