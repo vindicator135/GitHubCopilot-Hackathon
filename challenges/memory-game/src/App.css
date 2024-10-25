@@ -1,4 +1,3 @@
-
 body {
   font-family: Arial, sans-serif;
   display: flex;
@@ -13,8 +12,9 @@ body {
   text-align: center;
 }
 
-.grid-table {
-  border-collapse: collapse;
+.grid {
+  display: grid;
+  gap: 10px;
 }
 
 .grid-cell {
